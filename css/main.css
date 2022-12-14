@@ -8,7 +8,14 @@
 
 body{
     font-family: 'Heebo';
+    color: rgba(33, 36, 61, 1);
 }
+/* Обертка*/
+.wrapper{
+    margin: 0 auto;
+    width: 856px;
+}
+/* Шапка*/
 .header{
     overflow: hidden;
 }
@@ -29,4 +36,55 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+}
+/* Блок автор*/
+.author{
+    margin-top: 127px;
+    margin-bottom: 72px;
+}
+
+.author .wrapper{
+    overflow: hidden;
+}
+
+.author__info{
+    float: left;
+    width: calc(100% - 243px);
+    padding-right: 115px;
+}
+
+.author__avatar{
+    float: right;
+    width: 243px;
+}
+
+.author__avatar img{
+   width: 100%;
+   border-radius: 50%;
+   box-shadow: -6px 6px 0px #EDF7FA;
+}
+
+.author__title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 136%;
+    margin-bottom: 40px;
+}
+
+.author__text{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/*Кнопка*/
+.button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 100, 100, 1);
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
