@@ -88,3 +88,41 @@ body{
     border: none;
     cursor: pointer;
 }
+/*Посты*/
+.posts{
+    background-color: #EDF7FA;
+    margin-top: 72px;
+    margin-bottom: 28px;
+}
+
+.posts__header{
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.posts__title{
+    float: left;
+    font-size: 22px;
+}
+
+.posts__header a{
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    color: #00A8CC;
+}
+
+.posts .wrapper{
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+.posts__cards{
+    overflow: hidden;
+}
+
+.posts__card{
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 20px;
+}
